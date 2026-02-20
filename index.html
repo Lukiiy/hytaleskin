@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Viewer for Hytale profile skins">
+    <meta name="author" content="Lukiiy">
+    <title>Hytale Skin Viewer</title>
+</head>
+<body>
+    <h1>Skin Viewer</h1>
+
+    <section>
+        <label for="username">Player:</label>
+        <input type="text" id="username" name="player">
+        <button id="btn" onclick="execute(usernameInput.value.trim())">View</button>
+    </section>
+
+    <img id="skin" alt="Skin"></img>
+    <table id="skinFeatures" title="Skin Features" style="display: none;"></table>
+
+    <a href="https://github.com/Lukiiy/hytaleskin">Source Code</a>
+    <script defer src="app.js"></script>
+</body>
+</html>
