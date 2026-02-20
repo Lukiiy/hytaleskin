@@ -1,3 +1,7 @@
+html {
+    color-scheme: light;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     image-rendering: pixelated;
@@ -8,7 +12,7 @@ body {
 }
 
 #skin {
-    animation: border 1s linear infinite;
+    animation: border 1s infinite;
     background-color: #0004;
     object-fit: contain;
     cursor: pointer;
@@ -29,6 +33,10 @@ img[src=""], img:not([src]) {
 
 #skin {
     width: 200px;
+}
+
+table:not(:has(tbody > *)) {
+    display: none;
 }
 
 a {
